@@ -21,6 +21,7 @@ For example, if the file contained:
    The following section of the software should include a report on how many of the words on the list can be formed from other words on the list.
 
 # ALOGORITHM TO SOLVE THIS
+
 The apporach to solve the problem is using a trir data structure  
 so firstly store all the given input in the trie data structure 
 Now trie contains all the words ,now itterate one by one in the trie data structure 
@@ -33,6 +34,7 @@ we store in this manner that for front we check or first largest and for second 
 Now the last and first one is the first and second largest string with all prefix 
 
 # STEPS
+
 1. READ THE INPUT
 2. STORE THAT INPUT IN QUESUE DATA STRUCTURE
 3. ITTREARTE AND STORE IN THE SELF DECLARE TRIE DATA STRUCTURE 
