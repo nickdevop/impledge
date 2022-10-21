@@ -1,4 +1,4 @@
-# impledge
+# Impledge Task
 Programming Problem - "Search the longest compounded word"
 
 # PROBLEM STATMENT
