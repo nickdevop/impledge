@@ -44,8 +44,8 @@ Now the last and first one is the first and second largest string with all prefi
 7. DEQUEUE IS DOUBLE ENDED SO WE USE THIS AS FIRST AND LAST TO STORE FIRST LARGEST AT FRONT AND SECOND LARGEST IN LAST
 8 STORE IN STRIN1 AND STRING 2 AND PRINT THE FINAL ANS I.E FIRST AND SECOND LARGEST
 
-############
-Time Complexity
+
+##Time Complexity
 O(N*length) + O(N) * O(length) + O(N*length)
 O(N*length) --> to read input and store in queue data structure where N is number of string input and average length of all the string;
 #
