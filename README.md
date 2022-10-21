@@ -1,7 +1,7 @@
 # impledge
 Programming Problem - "Search the longest compounded word"
 
-PROBLEM STATMENT
+# PROBLEM STATMENT
 
 Write a program that reads a file containing a sorted list of words (one word per line, no spaces, all lower case), then identifies the longest word in the file that can be constructed by concatenating copies of shorter words also found in the file.
 
@@ -20,7 +20,7 @@ For example, if the file contained:
    Ratcatdogcat, the longest word AND Second Longest  Word: catsdogcatsconstructed from other words on the list with 12 letters, would be the correct response.
    The following section of the software should include a report on how many of the words on the list can be formed from other words on the list.
 
-ALOGORITHM TO SOLVE THIS
+# ALOGORITHM TO SOLVE THIS
 The apporach to solve the problem is using a trir data structure  
 so firstly store all the given input in the trie data structure 
 Now trie contains all the words ,now itterate one by one in the trie data structure 
@@ -32,7 +32,7 @@ if it is greater than the first and last one so we can easly return first and se
 we store in this manner that for front we check or first largest and for second we check for second largest 
 Now the last and first one is the first and second largest string with all prefix 
 
-STEPS
+# STEPS
 1. READ THE INPUT
 2. STORE THAT INPUT IN QUESUE DATA STRUCTURE
 3. ITTREARTE AND STORE IN THE SELF DECLARE TRIE DATA STRUCTURE 
