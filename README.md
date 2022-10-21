@@ -38,16 +38,14 @@ Now the last and first one is the first and second largest string with all prefi
 1. READ THE INPUT
 2. STORE THAT INPUT IN QUESUE DATA STRUCTURE
 3. ITTREARTE AND STORE IN THE SELF DECLARE TRIE DATA STRUCTURE 
-4.ITTREATE AND CHECK FOR PREFX OF THAT PARTICULAR STRING  
-
+4.ITTREATE AND CHECK FOR PREFX OF THAT PARTICULAR STRING                      
 5.DO FOR ALL THE STRING PRESENT IN THE TRIE DATA STRUCTURE
 6. CREATE A DEQUEUE TO SOTRE FIRST AND SECOND LARGEST 
-
 7. DEQUEUE IS DOUBLE ENDED SO WE USE THIS AS FIRST AND LAST TO STORE FIRST LARGEST AT FRONT AND SECOND LARGEST IN LAST   
  8 STORE IN STRIN1 AND STRING 2 AND PRINT THE FINAL ANS I.E FIRST AND SECOND LARGEST
 
 
-#Time Complexity
+# Time Complexity
 
 O(N*length) + O(N) * O(length) + O(N*length)
 O(N*length) --> to read input and store in queue data structure where N is number of string input and average length of all the string;
@@ -59,7 +57,7 @@ O(N*length) --> to ittrate  where N is number of string input  and average lengt
 
  
 
-#Space Complexity
+# Space Complexity
 
 O(N*length) +O(N*length)
 O(N*length) --> to read input and store in  trie data structure where N is number of string input  and average length of all the string;
