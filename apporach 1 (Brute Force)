@@ -1,0 +1,50 @@
+Approach : 
+ 
+
+In text 01 or text 02, we first identify all of the prefixes for each string.
+
+We determine whether all prefixes for each string "S" are included in either the text 01 or text 02
+
+We mark the text 01 or text 02 strings on a map to verify this.
+
+If no such strings exist, we return " "
+
+The longest and second string with every prefix in text 01 or text 02 is chosen.
+
+We sort all the strings that meet theabove criteria and return the lexicographically smallest one.
+
+ 
+
+Algorithm : 
+ 
+
+Initialise a two variable as “” for longest and second longest.
+Initialise a hashmap m with key type string and value type integer.
+Traverse over all the strings s of array ‘A’ and mark m[s] = 1.
+Traverse over all the strings s of array ‘A’ again :
+Initialise a variable ‘flag’ as ‘1’.
+If the size of current string is ‘sz’, run a loop from ‘i=0’ to ‘i=sz-1’ :
+Find the prefix p of s from index j=0 to j=i and check if it is marked in the map m.
+If not, mark flag as 0.
+If the flag = 1 :
+Check if current string ‘s’ is greater in size than ‘ans’ :
+If yes, update ‘ans’ to ‘s’.
+Else, if current string ‘s’ is same in length to ‘ans’ :
+Update ‘ans’ to the minimum of ‘ans’ and ‘s’.
+If ‘ans’ is empty, then update “ans” to “None”.
+Return ‘ans’ as the final result.
+
+Time Complexity
+O(sum(text[i])*max(text[i])*log(N)), where ‘text_01 or text 02’ is the sum of length of all words ‘text_01 0r text_02’, max(text[i]) is the maximum length of string in text-01 or text 02 and ‘N’ is the size of text 01 or text 02.
+ 
+
+We are finding the prefixes of all strings ,searching them in a map, so the overall time complexity is O(Sum(text[i])*max(text[i])*N).
+
+ 
+
+Space Complexity
+O(Sum(text[i])) where ‘Sum(text[i])’ is the sum of length of all words ‘text[i]’.
+
+ 
+
+We are storing all strings in a map. Hence, the overall Space Complexity is O(Sum(text[i])).
