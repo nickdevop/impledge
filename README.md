@@ -45,10 +45,11 @@ Now the last and first one is the first and second largest string with all prefi
 8 STORE IN STRIN1 AND STRING 2 AND PRINT THE FINAL ANS I.E FIRST AND SECOND LARGEST
 
 
-##Time Complexity
+#Time Complexity
+
 O(N*length) + O(N) * O(length) + O(N*length)
 O(N*length) --> to read input and store in queue data structure where N is number of string input and average length of all the string;
-#
+
 O(N*length) --> to read input and store in  trie data structure where N is number of string input  and average length of all the string;
 O(N*length) --> to ittrate  where N is number of string input  and average length of all the string;
  
@@ -56,7 +57,8 @@ O(N*length) --> to ittrate  where N is number of string input  and average lengt
 
  
 
-Space Complexity
+#Space Complexity
+
 O(N*length) +O(N*length)
 O(N*length) --> to read input and store in  trie data structure where N is number of string input  and average length of all the string;
 O(N*length) --> to read input and store in  trie queue data structure where N is number of string input  and average length of all the string;
